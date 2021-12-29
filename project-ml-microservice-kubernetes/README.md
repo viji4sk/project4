@@ -11,24 +11,21 @@ https://github.com/viji4sk/project4/blob/master/project-ml-microservice-kubernet
 https://github.com/viji4sk/project4/blob/master/project-ml-microservice-kubernetes/run_docker.sh
 https://github.com/viji4sk/project4/tree/master/.circleci
 
-## 1.A summary of the project : 
+## 1. A summary of the project : 
 Operationalize a Machine Learning Microservice API, sklearn model that has been trained to predict housing prices in Boston is used in this project. An existing Python flask app app.py that serves out predictions (inference) about housing prices through API calls. We used docker a to create, build containers as well to deploy/run our application in Kubernetes using minikube clusters.
 
 **Below steps in nutshell were carried out in this project.**
-   Test your project code using linting 
-   Complete a Dockerfile to containerize this application
-   Deploy your containerized application using Docker and make a prediction
-   Improve the log statements in the source code for this application
-   Configure Kubernetes and create a Kubernetes cluster
-   Deploy a container using Kubernetes and make a prediction
-   Upload a complete Github repo with CircleCI to indicate that your code has been tested
+   * Test your project code using linting 
+   * Complete a Dockerfile to containerize this application
+   * Deploy your containerized application using Docker and make a prediction
+   * Improve the log statements in the source code for this application
+   * Configure Kubernetes and create a Kubernetes cluster
+   * Deploy a container using Kubernetes and make a prediction
+   * Upload a complete Github repo with CircleCI to indicate that your code has been tested
 
-##  2.Instructions on how to run the Python scripts and web app (simply listing command line calls will suffice), and
+##  2. Instructions on how to run the Python scripts and web app (simply listing command line calls will suffice), and
 Setup the Environment **
 ---
-## Getting Started
-### Setup the Environment
-
 * Create a virtualenv and activate it
 ```
 python3 -m venv <your_venv>
@@ -49,7 +46,7 @@ source <your_venv>/bin/activate
 * Create Flask app in Container
 * Run via kubectl
 
-## 3.A short explanation of the files in the repository:
+## 3. A short explanation of the files in the repository:
 
 * .cicrleci -> contains CONFIG.YML needed for circleci's build
 * Model data -> contains data used for prediction by the app.py
