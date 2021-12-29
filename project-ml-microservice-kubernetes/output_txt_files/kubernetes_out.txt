@@ -1,1 +1,31 @@
-<paste log output from Kubernetes-mediated prediction, here>
+Terminal1:
+==========
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh
+pod/vijisas created
+NAME      READY   STATUS              RESTARTS   AGE
+apiclu    1/1     Running             0          37m
+myv       1/1     Running             0          35m
+myv1      0/1     ImagePullBackOff    0          34m
+sarimas   1/1     Running             0          16m
+sarivs    1/1     Running             0          22m
+sarivs1   1/1     Running             0          21m
+vijis     1/1     Running             0          7m10s
+vijisa    1/1     Running             0          6m17s
+vijisas   0/1     ContainerCreating   0          0s
+Forwarding from 127.0.0.1:8080 -> 80
+Forwarding from [::1]:8080 -> 80
+Handling connection for 8080
+Handling connection for 8080
+
+Terminal2:
+==========
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./make_prediction.sh
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+Running curl command output:
+(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ curl localhost:8080
+<h3>Sklearn Prediction Home</h3>(.devops) voclabs:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ 
