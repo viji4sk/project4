@@ -3,7 +3,7 @@ PLEASE NOTE: This project was done using CLOUD9 so instead of 8000 port, this pr
 [![CircleCI](https://circleci.com/gh/viji4sk/project4/tree/master.svg?style=svg)](https://circleci.com/gh/viji4sk/project4/tree/master)
 
 Output files:
-https://github.com/viji4sk/project4/blob/master/project-ml-microservice-kubernetes/output_txt_files/docker_out.txt
+https://github.com/viji4sk/project4/blob/master/project-ml-microservice-kubernetes/output_txt_files/docker_out.txt (Resubmitted)
 https://github.com/viji4sk/project4/blob/master/project-ml-microservice-kubernetes/output_txt_files/kubernetes_out.txt
 
 Other files:
